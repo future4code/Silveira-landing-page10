@@ -2,9 +2,7 @@
     margin: 0;
     padding: 0;
 }
-div{
-    background-color: aqua;
-}
+
 .logo{
     width: 100px;
     height: 100px;
@@ -33,10 +31,62 @@ li{
 }
 .menu{
     position: fixed;
+
+    justify-content: space-between;
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-between;
     padding: 40px;
     border-radius: 20%;
 }
+
+
+
+#lista {
+   padding-right: 60px;
+}
+
+#lista a {
+    text-decoration: none;
+}
+
+#home {
+    font-size: 25px;
+    margin-right: 50px;
+}
+
+#quem-somos {
+    font-size: 25px;
+    margin-right: 50px;
+}
+
+#contato {
+    font-size: 25px;
+}
+
+@media screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    #lista li {
+        display: flex;
+        font-size: 15px;
+        margin-left: 1px;
+    }
+
+    .logo {
+        display: flex;
+        margin-left: -40px;
+        padding-right: 0;
+    }
+
+    #home {
+        margin-left: 5px;
+        padding-right: 0;
+    }
+
+    #quem-somos {
+        margin-left: 5px;
+        padding-right: 0;
+    }
+}
+
+
+
