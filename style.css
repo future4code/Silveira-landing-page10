@@ -36,6 +36,7 @@ li{
 }
 .menu{
     position: fixed;
+
     justify-content: space-between;
     width: 100%;
     display: flex;
@@ -96,4 +97,6 @@ li{
         
     }
 }
+
+
 
