@@ -22,6 +22,28 @@ header {
     
 }
 
+#descricao-conteudo p {
+      
+    position: absolute;
+    font-size:large;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+	left: 25%;
+	top: 45%
+}
+
+#primeiro-conteudo h1 {
+      
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+	left: 42%;
+	top: 35%
+}
+
+
 .icon{
     width: 5vh;
     height: 5vh;
@@ -89,6 +111,18 @@ li{
         font-size: 20px;
         margin-left: 1px;
         margin-top: 10px;
+    }
+
+    #primeiro-conteudo h1 {
+
+        left: 28%;
+        top: 35%
+    }
+
+    #descricao-conteudo p {
+
+        left: 0%;
+        top: 45%
     }
 
     .logo {
